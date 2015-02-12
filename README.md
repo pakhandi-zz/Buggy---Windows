@@ -90,3 +90,5 @@ This file is to allow user to set a template code for his solutions. This code w
 This is the sublime-build file. This is a custom build which compiles cpp code and makes an exe file on <b>Ctrl+B</b>, and runs the <b>f.bat</b> file on <b>Ctrl+Shift+B</b>.
 </li>
 </ul>
+<br>
+For Hugs and Bugs drop a mail at <b>asimkprasad@gmail.com</b>
