@@ -2,6 +2,8 @@
 
 This application is to assisst a competitive-programmer in a CodeForces round. This application downloads all the sample test cases for a problem and runs a user&#39;s solution program on all these test cases so that no time is wasted on manual checking of the solution.
 
+For now the application is for C++ users only.
+
 <h3>Requisites</h3>
 <ul>
 <li>Internet Connection (it should be working on cmd and should be allowed for all the applications)</li>
