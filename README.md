@@ -61,9 +61,13 @@ For now the application is for C++ users only.
 The program has been tested on Windows-8.1, 64-bit
 
 <h3>Usage</h3>
-Just click on the <b>start.bat</b> file in the <b>C:/CF/dist/</b> folder and it&#39;ll do the job.
-Code your solution and press <b>Ctrl+B</b> to compile the code.
-Use <b>Ctrl+Shift+B</b> to run the program on the test files
+Just click on the <b>start.bat</b> file in the <b>C:/CF/dist/</b> folder and it&#39;ll open a <b>cmd</b> window in which you&#39;ll need to enter the CodeForces round number (the one you see in the URL).<br>
+It'll then download everything and open Sublime and the problemset in our default browser.<br>
+Code your solution and press <b>Ctrl+B</b> to compile the code.<br>
+Use <b>Ctrl+Shift+B</b> to run the program on the test files.<br>
+<center><img src="https://github.com/pakhandi/BatchTest_CodeForces/blob/master/src/CF.JPG?raw=true"></center>
+<br><br>
+
 
 NOTE:
 It&#39;s better to have a shortcut of the <b>start.bat</b> file on Desktop or somewhere more accessible.
@@ -93,7 +97,7 @@ This is the sublime-build file. This is a custom build which compiles cpp code a
 </li>
 </ul>
 <br>
-Refer to <a href="" target="_blank">this post</a> for more detailed explanation of the working of the application.
+Refer to <a href="http://bugecode.com/post.php?pid=118" target="_blank">this post</a> for more detailed explanation of the working of the application.
 <br>
 <br>
 For Hugs and Bugs drop a mail at <b>asimkprasad@gmail.com</b>
