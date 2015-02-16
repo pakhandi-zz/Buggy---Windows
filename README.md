@@ -1,6 +1,6 @@
 <h1>Batch-Test for CodeForces : V.1.0</h1>
 
-This application is to assisst a competitive-programmer in a CodeForces round. This application downloads all the sample test cases for a problem and runs a user&#39;s solution program on all these test cases so that no time is wasted on manual checking of the solution.
+This application is to assist a competitive-programmer in a CodeForces round. This application downloads all the sample test cases for a problem and runs a user&#39;s solution program on all these test cases so that no time is wasted on manual checking of the solution.
 
 For now the application is for C++ users only.
 
