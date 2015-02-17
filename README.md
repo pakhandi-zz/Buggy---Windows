@@ -8,6 +8,7 @@ Support for linux system is now under-development..<br>
 
 <h3>Requisites</h3>
 <ul>
+<li>Windows OS</li>
 <li>Internet Connection (it should be working on cmd and should be allowed for all the applications)</li>
 <li>A little space in <b>C:</b> drive</li>
 <li>Sublime Text-3 (make sure it&#39;s included in the PATH-variables)
