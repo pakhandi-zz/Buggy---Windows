@@ -2,7 +2,9 @@
 
 This application is to assist a competitive-programmer in a CodeForces round. This application downloads all the sample test cases for a problem and runs a user&#39;s solution program on all these test cases so that no time is wasted on manual checking of the solution.
 
-For now the application is for C++ users only.
+For now the application is for C++ users only.<br>
+<br>
+Support for linux system is now under-development..<br>
 
 <h3>Requisites</h3>
 <ul>
@@ -35,7 +37,7 @@ For now the application is for C++ users only.
 
 <h3>Installation</h3>
 <ol>
-<li>Download all the files from <a href="https://github.com/pakhandi/BatchTest_CodeForces">here</a>.</li>
+<li>Download all the files from <a href="https://github.com/pakhandi/BatchTest_CodeForces/archive/V.1.0.zip">here : V.1.0</a>.</li>
 <li>Shift the <b>CF</b> folder to <b>"C:\"</b>. This is very important for the application to work. The CF folder should be directly in <b>C:</b> drive</li>
 <li>Open Sublime-Text-3 (referred as Sublime here after), and change your build system
 	<ol>
