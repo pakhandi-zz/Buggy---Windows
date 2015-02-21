@@ -4,7 +4,8 @@ This application is to assist a competitive-programmer in a CodeForces round. Th
 
 For now the application is for C++ users only.<br>
 <br>
-Support for linux system is now under-development..<br>
+<b>UPDATE : </b> <i>Linux</i> and <i>src_linux</i> contain the under-development files for Linux support.
+<br>
 <br>
 <b>The project is under constant development and the files in the repository might be unstable. It is therefore advised to download the latest release for usage. <a href="https://github.com/pakhandi/BatchTest_CodeForces/archive/V.1.0.zip">This is the link</a> to the latest release</b>
 <br>
