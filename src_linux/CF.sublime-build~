@@ -6,7 +6,7 @@
     "shell": true,
     
     "variants": 
-    		[
+            [
                 {   
                     "cmd": [ "sh f.sh ${file_base_name}" ],
                     "shell": true,

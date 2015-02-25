@@ -48,7 +48,7 @@ For now the application is for C++ users only.<br>
 	<ol>
 	<li>GoTo <b>"Tools -> Build System -> New Build System".</b></li>
 	<li>A file with some pre-written code will open, delete all the contents of this file.</li>
-	<li>In the <b>src</b> folder you&#39;ll find a file <b>CF.sublime-build</b>. Copy the contents of this file in the file that had opened up in the previous step.</li>
+	<li>In the <b>src_windows</b> folder you&#39;ll find a file <b>CF.sublime-build</b>. Copy the contents of this file in the file that had opened up in the previous step.</li>
 	<li>Save this file in the default location with name <b>CF</b></li>
 	<li>GoTo <b>"Tools -> Build System"</b> and select <b>CF</b> </li>
 	<li>Your Sublime is now configured</li>
@@ -72,7 +72,7 @@ Just click on the <b>start.bat</b> file in the <b>C:/CF/dist/</b> folder and it&
 It'll then download everything and open Sublime and the problemset in our default browser.<br>
 Code your solution and press <b>Ctrl+B</b> to compile the code.<br>
 Use <b>Ctrl+Shift+B</b> to run the program on the test files.<br>
-<center><img src="https://github.com/pakhandi/BatchTest_CodeForces/blob/master/src/CF.JPG?raw=true"></center>
+<center><img src="https://github.com/pakhandi/BatchTest_CodeForces/blob/master/src_windows/CF.JPG?raw=true"></center>
 <br><br>
 
 
