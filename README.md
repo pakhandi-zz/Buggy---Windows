@@ -84,11 +84,8 @@ Use <b>Ctrl+Shift+B</b> to run the program on the test files.<br>
 <a name="testing"><h3>Testing</h3></a>
 The program has been tested on Windows-8.1, 64-bit
 
-<br><br>
-
 NOTE:
 It&#39;s better to have a shortcut of the <b>start.bat</b> file on Desktop or somewhere more accessible.
-
 
 <h3>Understanding Source Files</h3>
 <ul>
