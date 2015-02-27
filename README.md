@@ -1,16 +1,26 @@
-<h1>Batch-Test for CodeForces : V.1.0</h1>
+<h1>Batch-Test for CodeForces : V.2.0</h1>
 
+A batch-testing sublime plug-in for CodeForces
+<br><br>
 This application is to assist a competitive-programmer in a CodeForces round. This application downloads all the sample test cases for a problem and runs a user&#39;s solution program on all these test cases so that no time is wasted on manual checking of the solution.
 
 For now the application is for C++ users only.<br>
 <br>
-<b>UPDATE : </b> <i>Linux</i> and <i>src_linux</i> contain the under-development files for Linux support.
 <br>
-<br>
-<b>The project is under constant development and the files in the repository might be unstable. It is therefore advised to download the latest release for usage. <a href="https://github.com/pakhandi/BatchTest_CodeForces/archive/V.1.0.zip">This is the link</a> to the latest release</b>
+<b>The project is under constant development and the files in the repository might be unstable. It is therefore advised to download the latest release for usage. <a href="https://github.com/pakhandi/Buggy---Windows/archive/V.2.0.zip">This is the link</a> to the latest release</b>
 <br>
 
-<h3>Requisites</h3>
+<h3>Index</h3>
+<ol>
+<li><a href="#requisites">Requisites</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#techused">Technology Used</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#understandingsourcefiles">Understanding Source Files</a></li>
+</ol>
+
+<a name="requisites"><h3>Requisites</h3></a>
 <ul>
 <li>Windows OS</li>
 <li>Internet Connection (it should be working on cmd and should be allowed for all the applications)</li>
@@ -40,9 +50,9 @@ For now the application is for C++ users only.<br>
 </li>
 </ul>
 
-<h3>Installation</h3>
+<a name="installation"><h3>Installation</h3></a>
 <ol>
-<li>Download all the files from <a href="https://github.com/pakhandi/BatchTest_CodeForces/archive/V.1.0.zip">here : V.1.0</a>.</li>
+<li>Download all the files from <a href="https://github.com/pakhandi/Buggy---Windows/archive/V.2.0.zip">here : V.2.0</a>.</li>
 <li>Shift the <b>CF</b> folder to <b>"C:\"</b>. This is very important for the application to work. The CF folder should be directly in <b>C:</b> drive</li>
 <li>Open Sublime-Text-3 (referred as Sublime here after), and change your build system
 	<ol>
@@ -58,23 +68,23 @@ For now the application is for C++ users only.<br>
 </ol>
 
 
-<h3>Technology Used</h3>
+<a name="techused"><h3>Technology Used</h3></a>
 <ul>
 <li>The application is made using Python-2.7.9 and Shell scripting</li>
 <li><b>BeautifulSoup</b> module is used alongwith <b>requests</b> in Python</li>
 </ul>
 
-<h3>Testing</h3>
-The program has been tested on Windows-8.1, 64-bit
-
-<h3>Usage</h3>
+<a name="usage"><h3>Usage</h3></a>
 Just click on the <b>start.bat</b> file in the <b>C:/CF/dist/</b> folder and it&#39;ll open a <b>cmd</b> window in which you&#39;ll need to enter the CodeForces round number (the one you see in the URL).<br>
 It'll then download everything and open Sublime and the problemset in our default browser.<br>
 Code your solution and press <b>Ctrl+B</b> to compile the code.<br>
 Use <b>Ctrl+Shift+B</b> to run the program on the test files.<br>
 <center><img src="https://github.com/pakhandi/BatchTest_CodeForces/blob/master/src_windows/CF.JPG?raw=true"></center>
-<br><br>
 
+<a name="testing"><h3>Testing</h3></a>
+The program has been tested on Windows-8.1, 64-bit
+
+<br><br>
 
 NOTE:
 It&#39;s better to have a shortcut of the <b>start.bat</b> file on Desktop or somewhere more accessible.
