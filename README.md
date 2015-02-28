@@ -67,19 +67,19 @@ For now the application is for C++ users only.<br>
 <li>Change the template code in <b>template.cpp</b> as it suits you.</li>
 </ol>
 
+<a name="usage"><h3>Usage</h3></a>
+Just click on the <b>start.bat</b> file in the <b>C:/CF/dist/</b> folder and it&#39;ll open a <b>cmd</b> window in which you&#39;ll need to enter the CodeForces round number (the one you see in the URL).<br>
+Make sure Sublime Side-Bar is visible (<b>View -> Side Bar -> Show Side Bar</b>)<br>
+It'll then download everything and open Sublime and the problemset in our default browser.<br>
+Code your solution and press <b>Ctrl+B</b> to compile the code.<br>
+Use <b>Ctrl+Shift+B</b> to run the program on the test files.<br>
+<center><img src="https://github.com/pakhandi/BatchTest_CodeForces/blob/master/src_windows/CF.JPG?raw=true"></center>
 
 <a name="techused"><h3>Technology Used</h3></a>
 <ul>
 <li>The application is made using Python-2.7.9 and Shell scripting</li>
 <li><b>BeautifulSoup</b> module is used alongwith <b>requests</b> in Python</li>
 </ul>
-
-<a name="usage"><h3>Usage</h3></a>
-Just click on the <b>start.bat</b> file in the <b>C:/CF/dist/</b> folder and it&#39;ll open a <b>cmd</b> window in which you&#39;ll need to enter the CodeForces round number (the one you see in the URL).<br>
-It'll then download everything and open Sublime and the problemset in our default browser.<br>
-Code your solution and press <b>Ctrl+B</b> to compile the code.<br>
-Use <b>Ctrl+Shift+B</b> to run the program on the test files.<br>
-<center><img src="https://github.com/pakhandi/BatchTest_CodeForces/blob/master/src_windows/CF.JPG?raw=true"></center>
 
 <a name="testing"><h3>Testing</h3></a>
 The program has been tested on Windows-8.1, 64-bit
