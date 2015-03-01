@@ -12,6 +12,18 @@
                     "shell": true,
                     "name": "Run",
                     "working_dir" : "$file_path"
+                },
+                {
+                    "cmd": [ "start", "C:\\CF\\dist\\submit_solution.bat" ],
+                    "shell": true,
+                    "name": "CF_add_test_case",
+                    "working_dir" : "$file_path"
+                },
+                {
+                    "cmd": [ "start", "C:\\CF\\dist\\submit_solution.bat" ],
+                    "shell": true,
+                    "name": "CF_submit_solution",
+                    "working_dir" : "$file_path"
                 }
             ]
 }
