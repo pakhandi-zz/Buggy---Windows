@@ -18,8 +18,9 @@ for div in soup.findAll('div', 'problemindexholder'):
     else:
         os.makedirs("C:/CF/dist/"+CF+"/"+chr(ord('A')+counter))
 
-    shutil.copyfile("C:/CF/dist/"+"f.bat","C:/CF/dist/"+CF+"/"+chr(ord('A')+counter)+"/f.bat")
-    shutil.copyfile("C:/CF/dist/"+"template.cpp", "C:/CF/dist/"+CF+"/"+chr(ord('A')+counter)+"/prog.cpp" )
+    shutil.copyfile("C:/CF/dist/"+"zy.bat","C:/CF/dist/"+CF+"/"+chr(ord('A')+counter)+"/zy.bat")
+    shutil.copyfile("C:/CF/dist/"+"zz.bat","C:/CF/dist/"+CF+"/"+chr(ord('A')+counter)+"/zz.bat")
+    shutil.copyfile("C:/CF/dist/"+"template.cpp", "C:/CF/dist/"+CF+"/"+chr(ord('A')+counter)+"/aprog.cpp" )
     
     detach_dir = "C:/CF/dist/"+CF+"/"+chr(ord('A')+counter)+"/"
     att_path = os.path.join(detach_dir, chr(ord('A')+counter)+".cpp")

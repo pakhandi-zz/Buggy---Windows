@@ -37,7 +37,7 @@
             },
             {
                 "command": "open_file",
-                "args": {"file": "${packages}/Buggy---Windows/src_windows/Default (Windows).sublime-keymap"},
+                "args": {"file": "${packages}/Buggy---Windows/Default (Windows).sublime-keymap"},
                 "caption": "Key Bindings - Default"
             },
             {
