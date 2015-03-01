@@ -1,4 +1,0 @@
-[
-	{ "keys": ["ctrl+shift+g"], "command": "build", "args": {"variant": "CF_add_test_case"} },
-	{ "keys": ["ctrl+alt+g"], "command": "build", "args": {"variant": "CF_submit_solution"} }
-]

@@ -5,5 +5,5 @@
 @ini.exe<temp.txt
 @subl ./%round%
 @cd C:/CF/dist/%round%/A/
-@subl prog.cpp
+@subl aprog.cpp
 @start http://codeforces.com/contest/%round%/problems

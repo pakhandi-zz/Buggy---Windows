@@ -6,17 +6,22 @@
     
     "variants": 
     		[
+                {
+                    "cmd": [ "start", "C:\\CF\\dist\\start.bat" ],
+                    "shell": true,
+                    "name": "parse_test_cases",
+                    "working_dir" : "$file_path"
+                },
                 {   
-                    //"cmd": [ "${file_base_name}<1.txt"],
-                    "cmd": [ "start", "f.bat", "${file_base_name}.exe" ],
+                    "cmd": [ "start", "zy.bat", "${file_base_name}.exe" ],
                     "shell": true,
                     "name": "Run",
                     "working_dir" : "$file_path"
                 },
                 {
-                    "cmd": [ "start", "C:\\CF\\dist\\submit_solution.bat" ],
+                    "cmd": [ "start", "zz.bat", "${file_base_name}.exe" ],
                     "shell": true,
-                    "name": "CF_add_test_case",
+                    "name": "run_custom_test_case",
                     "working_dir" : "$file_path"
                 },
                 {
