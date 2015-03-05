@@ -9,6 +9,15 @@ url = "http://codeforces.com/contest/"+CF+"/problems"
 data = requests.get(url)
 
 soup = BeautifulSoup(data.text)
+
+present=1
+
+for x in soup.findAll('li', 'current'):
+    present=0
+    print x.text
+
+if present == 0:
+    exit()
         
 counter = 0
 for div in soup.findAll('div', 'problemindexholder'):
