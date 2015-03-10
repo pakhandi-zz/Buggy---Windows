@@ -2,6 +2,7 @@
 @echo %round%>temp.txt
 @cd C:/CF/dist
 @ini.exe<temp.txt
+@pause
 IF EXIST %round% (
  @subl ./%round%
  @cd C:/CF/dist/%round%/A/
