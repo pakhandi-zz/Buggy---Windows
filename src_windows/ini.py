@@ -2,11 +2,32 @@ import json, requests
 import os
 from bs4 import BeautifulSoup
 import shutil
+import urllib, urllib2
+import sys
 
 CF = raw_input()
 
 url = "http://codeforces.com/contest/"+CF+"/problems"
-data = requests.get(url)
+flag=0
+try:
+    data = requests.get(url)
+    flag = 1
+except Exception, e:
+    print "Direct Connection Failed, trying Proxy"
+    fo = open("proxy.txt", "r+")
+    http_proxy = fo.read(100)
+    fo.close()
+
+    proxyDict = { 
+                   "http"  : "http://"+http_proxy
+                }
+
+    data = requests.get(url, proxies=proxyDict)
+    flag=1
+
+if flag==0:
+    print "Error in Connection to Internet"
+
 
 soup = BeautifulSoup(data.text)
 
@@ -14,10 +35,9 @@ present=1
 
 for x in soup.findAll('li', 'current'):
     present=0
-    print x.text
 
 if present == 0:
-    exit()
+    sys.exit(0)
         
 counter = 0
 for div in soup.findAll('div', 'problemindexholder'):
