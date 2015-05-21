@@ -6,16 +6,17 @@ This application is to assist a competitive-programmer in a CodeForces round. Th
 
 For now the application is for C++ users only.<br>
 <br>
-<br>
 <b>The project is under constant development and the files in the repository might be unstable. It is therefore advised to download the latest release for usage. <a href="https://github.com/pakhandi/Buggy---Windows/archive/V.2.1.zip">This is the link</a> to the latest release</b>
+<br>
+<b>NOTE : </b>Please try the Plug-in once before using it in actual contest to avoid any last minute confusions.
 <br>
 
 <h3>Index</h3>
 <ol>
 <li><a href="#requisites">Requisites</a></li>
 <li><a href="#installation">Installation</a></li>
-<li><a href="#techused">Technology Used</a></li>
 <li><a href="#usage">Usage</a></li>
+<li><a href="#techused">Technology Used</a></li>
 <li><a href="#testing">Testing</a></li>
 </ol>
 
@@ -53,7 +54,12 @@ For now the application is for C++ users only.<br>
 <ol>
 <li>Download all the files from <a href="https://github.com/pakhandi/Buggy---Windows/archive/V.2.1.zip">here : V.2.1</a>.</li>
 <li>Shift the <b>CF</b> folder to <b>"C:\"</b>. This is very important for the application to work. The CF folder should be directly in <b>C:</b> drive</li>
-<li>Shift the <b>Buggy---Windows</b> folder to <b>C:\Users\DELL\AppData\Roaming\Sublime Text 3\Packages</b></li>
+<li>Shift the <b>Buggy---Windows</b> folder to <b>C:\Users\<i>User</i>\AppData\Roaming\Sublime Text 3\Packages</b>.
+	<ul>
+	<li> For me, the path looks like : <b>C:\Users\<i>DELL</i>\AppData\Roaming\Sublime Text 3\Packages</b>
+	</li>
+	</ul>
+</li>
 <li>Open Sublime-Text-3 (referred as Sublime here after), and change your build system
 	<ol>
 	<li>GoTo <b>"Tools -> Build System"</b> and select <b>CF</b> </li>
@@ -67,11 +73,13 @@ For now the application is for C++ users only.<br>
 <li>After the installation, you should see a new menu in the menu bar, <b>Buggy</b>.</li>
 <li>Click on the <b>Buggy</b> menu and you&#39;ll be able to see all the options there.</li>
 <li>Make sure Sublime Side-Bar is visible (<b>View -> Side Bar -> Show Side Bar</b>).</li>
+<li>To start parsing test-cases for a round, (<b>Buggy -> Start</b>)</li>
 <li>Compile the code before running it on test-cases.</li>
 <li>For parsing the test-cases, provide the round-number you see in the url of the contest.</li>
 <li>Copy the code before going to submit the code.</li>
 <li>If you want you can change the key-bindings too.</li>
 </ul>
+<center><img src="https://github.com/pakhandi/BatchTest_CodeForces/blob/master/src_windows/menu.jpg?raw=true"></center>
 <center><img src="https://github.com/pakhandi/BatchTest_CodeForces/blob/master/src_windows/CF.JPG?raw=true"></center>
 
 <a name="techused"><h3>Technology Used</h3></a>
