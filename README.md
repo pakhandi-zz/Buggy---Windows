@@ -53,7 +53,7 @@ For now the application is for C++ users only.<br>
 
 <a name="installation"><h3>Installation</h3></a>
 <ol>
-<li>Download all the files from <a href="https://github.com/pakhandi/Buggy---Windows/archive/V.2.2.zip">here : V.2.1</a>.</li>
+<li>Download all the files from <a href="https://github.com/pakhandi/Buggy---Windows/archive/V.2.2.zip">here : V.2.2</a>.</li>
 <li>Shift the <b>CF</b> folder to <b>"C:\"</b>. This is very important for the application to work. The CF folder should be directly in <b>C:</b> drive</li>
 <li>Shift the <b>Buggy---Windows</b> folder to <b>C:\Users\<i>User</i>\AppData\Roaming\Sublime Text 3\Packages</b>.
 	<ul>
