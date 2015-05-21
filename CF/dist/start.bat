@@ -1,9 +1,10 @@
 @set /p round=Enter The Round Number :
-@echo %round%>temp.txt
-@cd C:/CF/dist
-@ini.exe<temp.txt
+@echo %round%
+@echo %round%> temp.txt
 @pause
-IF EXIST %round% (
+@ini.exe < temp.txt
+@pause
+@IF EXIST %round% (
  @subl ./%round%
  @cd C:/CF/dist/%round%/A/
  @subl aprog.cpp
@@ -12,3 +13,4 @@ IF EXIST %round% (
 ) ELSE (
 exit
 )
+@pause
