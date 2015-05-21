@@ -1,4 +1,4 @@
-<h1>Batch-Test for CodeForces : V.2.1</h1>
+<h1>Batch-Test for CodeForces : V.2.2</h1>
 
 A batch-testing Sublime plug-in for CodeForces
 <br><br>
@@ -6,7 +6,7 @@ This application is to assist a competitive-programmer in a CodeForces round. Th
 
 For now the application is for C++ users only.<br>
 <br>
-<b>The project is under constant development and the files in the repository might be unstable. It is therefore advised to download the latest release for usage. <a href="https://github.com/pakhandi/Buggy---Windows/archive/V.2.1.zip">This is the link</a> to the latest release</b>
+<b>The project is under constant development and the files in the repository might be unstable. It is therefore advised to download the latest release for usage. <a href="https://github.com/pakhandi/Buggy---Windows/archive/V.2.2.zip">This is the link</a> to the latest release</b>
 <br>
 <b>NOTE : </b>Please try the Plug-in once before using it in actual contest to avoid any last minute confusions.<br>
 <b>Make Sure you have read the <a href="#installation">Installation</a> and <a href="#usage">Usage</a> very very carefully.</b>
@@ -53,7 +53,7 @@ For now the application is for C++ users only.<br>
 
 <a name="installation"><h3>Installation</h3></a>
 <ol>
-<li>Download all the files from <a href="https://github.com/pakhandi/Buggy---Windows/archive/V.2.1.zip">here : V.2.1</a>.</li>
+<li>Download all the files from <a href="https://github.com/pakhandi/Buggy---Windows/archive/V.2.2.zip">here : V.2.1</a>.</li>
 <li>Shift the <b>CF</b> folder to <b>"C:\"</b>. This is very important for the application to work. The CF folder should be directly in <b>C:</b> drive</li>
 <li>Shift the <b>Buggy---Windows</b> folder to <b>C:\Users\<i>User</i>\AppData\Roaming\Sublime Text 3\Packages</b>.
 	<ul>
