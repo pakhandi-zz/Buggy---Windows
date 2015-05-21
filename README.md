@@ -1,6 +1,6 @@
 <h1>Batch-Test for CodeForces : V.2.1</h1>
 
-A batch-testing sublime plug-in for CodeForces
+A batch-testing Sublime plug-in for CodeForces
 <br><br>
 This application is to assist a competitive-programmer in a CodeForces round. This application downloads all the sample test cases for a problem and runs a user&#39;s solution program on all these test cases so that no time is wasted on manual checking of the solution.
 
@@ -8,7 +8,8 @@ For now the application is for C++ users only.<br>
 <br>
 <b>The project is under constant development and the files in the repository might be unstable. It is therefore advised to download the latest release for usage. <a href="https://github.com/pakhandi/Buggy---Windows/archive/V.2.1.zip">This is the link</a> to the latest release</b>
 <br>
-<b>NOTE : </b>Please try the Plug-in once before using it in actual contest to avoid any last minute confusions.
+<b>NOTE : </b>Please try the Plug-in once before using it in actual contest to avoid any last minute confusions.<br>
+<b>Make Sure you have read the <a href="#installation">Installation</a> and <a href="#usage">Usage</a> very very carefully.</b>
 <br>
 
 <h3>Index</h3>
@@ -78,8 +79,16 @@ For now the application is for C++ users only.<br>
 <li>For parsing the test-cases, provide the round-number you see in the url of the contest.</li>
 <li>Copy the code before going to submit the code.</li>
 <li>If you want you can change the key-bindings too.</li>
+<li>If you are working behind proxy
+	<ul>
+	<li>Open dist/proxy.txt</li>
+	<li>Delete all the contents of the file and add your proxy with the following format </li>
+	<li>username:password@proxy:port</li>
+	</ul>
+</li>
 </ul>
 <center><img src="https://github.com/pakhandi/BatchTest_CodeForces/blob/master/src_windows/menu.jpg?raw=true"></center>
+<br>
 <center><img src="https://github.com/pakhandi/BatchTest_CodeForces/blob/master/src_windows/CF.JPG?raw=true"></center>
 
 <a name="techused"><h3>Technology Used</h3></a>
@@ -95,4 +104,6 @@ The program has been tested on Windows-8.1, 64-bit
 Refer to <a href="http://bugecode.com/post.php?pid=118" target="_blank">this post</a> for more detailed explanation of the working of the application.
 <br>
 <br>
+<b>To show your support, or if you liked the plugin, please don't remove the "Powered by Buggy plugin" comment from the template. </b><br>
+<b>Hope this makes your life easier</b><br>
 For Hugs and Bugs drop a mail at <b>asimkprasad@gmail.com</b>
