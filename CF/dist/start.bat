@@ -1,8 +1,10 @@
+@cd C:/
+@cd CF/dist
 @set /p round=Enter The Round Number :
 @echo %round%
 @echo %round%> temp.txt
 @pause
-@ini.exe < temp.txt
+@ini.exe<temp.txt
 @pause
 @IF EXIST %round% (
  @subl ./%round%
